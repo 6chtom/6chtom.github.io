@@ -1,102 +1,254 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <link rel="shortcut icon" href="/images/avatar.png" type="image/x-icon" />
-    <title>
-         
-        A Little Site
-    </title>
-    
-<link rel="stylesheet" href="/css/style.css">
-
-    
-<link rel="stylesheet" href="/fontawesome/css/fontawesome.min.css">
-
-    
-<link rel="stylesheet" href="/fontawesome/css/brands.min.css">
-
-    
-<link rel="stylesheet" href="/fontawesome/css/solid.min.css">
-
-     
-    
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXXX"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXXXX');
-        </script>
-    
-
-
+  <meta charset="utf-8">
+  
+  
+  <title>A Little Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  
+  <link rel="stylesheet" href="css/style.css">
+  
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+  
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body>
-    <div class="body-container">
-        <div class="header-wrapper"><header>
-    <div class="header-container">
-        <div class="header-menu-list">
-            <ul>
-            
-                <li>
-                    <a href="/">主页</a>
-                </li>
-            
-                <li>
-                    <a href="/about">关于</a>
-                </li>
-            
-            </ul>
-        </div>
-    </div>
-</header>
+  <div id="container">
+    <div id="wrap">
+      <div id="nav-outer">
+  <nav id="main-nav" class="outer">
+    <a id="main-nav-toggle" class="nav-icon"></a>
+    
+      <a class="main-nav-link" href="index.html">Home</a>
+    
+      <a class="main-nav-link" href="/archives">Archives</a>
+    
+    <div class="main-nav-space-between"></div>
+    
+  </nav>
 </div>
-        <div class="main-wrapper"><main>
-    <div class="main-container">
-        <div class="post-list">
-            
-            
-                <div class="post-item">
-                    <a href="/2022/06/21/markdown%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/"><span class="post-item-date">2022/06/21</span> markdown公式测试</a>
-                </div>
-            
-                <div class="post-item">
-                    <a href="/2022/06/20/hexo%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/"><span class="post-item-date">2022/06/20</span> hexo部署教程</a>
-                </div>
-            
-                <div class="post-item">
-                    <a href="/2022/06/20/hexo%E5%86%99%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"><span class="post-item-date">2022/06/20</span> hexo写博客教程</a>
-                </div>
-            
-        </div>
-    </div>
-</main>
+<div id="header-title">
+  <h1 id="logo-wrap">
+    <a href="index.html" id="logo">A Little Site</a>
+  </h1>
+  
 </div>
-        <div class="footer-wrapper"><footer>
-    <div class="footer-container">
-        <div class="footer-meta">
-            
-                <div class="footer-meta-copyright">
-                    &copy; 2022 yourname.
-                </div>
-            
-            
-                <div class="footer-meta-licenese">
-                    Licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>
-                </div>
-            
-            
-                <div class="footer-meta-rss">
-                    <a href="/atom.xml"><i class="fa-solid fa-rss"></i></a>
-                </div>
-            
-        </div>
+
+      <div id="content" class="outer">
+        <section id="main">
+  
+    <article id="post-markdown公式测试" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="2022/06/21/markdown%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/" class="article-date">
+  <time class="dt-published" datetime="2022-06-21T03:49:14.000Z" itemprop="datePublished">2022-06-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="2022/06/21/markdown%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/">markdown公式测试</a>
+    </h1>
+  
+
+      </header>
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Hexo里面公式换行需要4个\来换行<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>2个不行<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>与Typecho和Typora区别开</p>
+<div class="markdown-them-math-block">$$\begin{Bmatrix}
+   a &amp; b \\\\
+   c &amp; d
+\end{Bmatrix}
+$$</div><div class="markdown-them-math-block">$$\begin{CD}
+   A @&gt;a&gt;&gt; B \\\\
+@VbVV @AAcA \\\\
+   C @= D 
+\end{CD}
+$$</div><div class="markdown-them-math-block">$$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t
+$$</div><div class="markdown-them-math-block">$$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\\\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\\\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\\\
+\end{vmatrix}
+$$</div>
+      
     </div>
+    <footer class="article-footer">
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hexo部署教程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="2022/06/20/hexo%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/" class="article-date">
+  <time class="dt-published" datetime="2022-06-20T15:12:11.000Z" itemprop="datePublished">2022-06-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="2022/06/20/hexo%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/">hexo部署教程</a>
+    </h1>
+  
+
+      </header>
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <ol>
+<li>可以使用<code>hexo clean</code>来删除之前的文件</li>
+<li>进入blog文件夹打开终端<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>通过输入<code>hexo g</code>来生成hexo文件</li>
+<li>使用利用proxychains部署生成的文件到github上<code>proxychains hexo d</code></li>
+<li>输入USERNAME<span class="bd-box"><h-char class="bd bd-beg"><h-inner>：</h-inner></h-char></span>XXXX<span class="bd-box"><h-char class="bd bd-end"><h-inner>（</h-inner></h-char></span>/hexoblog下有<span class="bd-box"><h-char class="bd bd-beg"><h-inner>）</h-inner></h-char></span></li>
+<li>输入TOKEN<span class="bd-box"><h-char class="bd bd-beg"><h-inner>：</h-inner></h-char></span>XXXXXXXXXX<span class="bd-box"><h-char class="bd bd-end"><h-inner>（</h-inner></h-char></span>/hexoblog下有<span class="bd-box"><h-char class="bd bd-beg"><h-inner>）</h-inner></h-char></span></li>
+<li>等待上传完毕</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hexo写博客教程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="2022/06/20/hexo%E5%86%99%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" class="article-date">
+  <time class="dt-published" datetime="2022-06-20T15:07:57.000Z" itemprop="datePublished">2022-06-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="2022/06/20/hexo%E5%86%99%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">hexo写博客教程</a>
+    </h1>
+  
+
+      </header>
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="写博客">写博客</h1>
+<hr>
+<p><code>hexo new post []</code>文章存到了blog/source/_posts下面<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>是Markdown文件<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>直接写就行</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 6chtom<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a><br>
+      
+    </div>
+  </div>
 </footer>
-</div>
+
     </div>
+    <nav id="mobile-nav">
+  
+    <a href="index.html" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="js/clipboard.min.js"></script>
+<script src="js/jquery-1.4.3.min.js"></script>
+
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+
+<script src="js/script.js"></script>
+
+
+
+
+
+
+<script>
+  MathJax = {
+    options: {
+      enableMenu: false
+    },
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    }
+  };
+</script>
+<!-- <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+    CommonHTML: {
+      linebreaks: false
+    }
+  });
+  </script> -->
+<script type="text/javascript" id="MathJax-script" async
+  src="mathjax/tex-chtml.js">
+</script>
+<!-- <script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML">
+</script> -->
+
+
+
+  </div>
 </body>
 </html>
